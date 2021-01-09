@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+p {
+  color: gray;
+  font-size: 12px;
+}
+
+i, img, p, h5 {
+  cursor: pointer;
+}
+
+.header.d-flex.justify-content-between.bg-light {
+  height: 50px;
+}
+
+.container.pt-3.bg-light {
+  width: 487px;
+}
+
+img.rounded.mx-auto.d-block {
+  width: 60px;
+  height: 62px;
+}
