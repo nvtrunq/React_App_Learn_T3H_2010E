@@ -8,11 +8,9 @@ class App extends Component {
     this.state = {
       count: 0
     }
-
-    this.increment = this.increment.bind(this)
   }
 
-  increment() {
+  increment = () => {
     this.setState({
       count: this.state.count + 1
     })
