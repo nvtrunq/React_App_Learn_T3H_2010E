@@ -36,9 +36,8 @@ const Contents = () => {
       images: '/images/track3.jpeg',
       title: 'Happy Rock',
       discaption: 'Bendsound',
-      time: '12:00',
-      
-    },
+      time: '12:00'
+    }
   ])
 
   return (

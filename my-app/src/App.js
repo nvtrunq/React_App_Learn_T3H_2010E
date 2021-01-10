@@ -8,7 +8,7 @@ import './App.css'
 const App = () => {
   return (
     <Fragment>
-      <div className="container pt-3 bg-light">
+      <div className="container bg-light">
         <Header />
         <Content />
       </div>
