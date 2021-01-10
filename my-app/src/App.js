@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
-import'./scss/index.scss';
+import React, { Component } from 'react'
+import './scss/index.scss'
+import MusicList from './component/MusicList'
 
 class App extends Component {
   constructor() {
@@ -14,7 +15,6 @@ class App extends Component {
     this.setState({
       count: this.state.count + 1
     })
-    console.log(this.state.count)
   }
 
   render() {
@@ -27,6 +27,8 @@ class App extends Component {
 
         {/* <button onClick={() => this.increment(1)}>increment1</button>
         <button onClick={() => this.increment(2)}>increment2</button> */}
+
+        <MusicList></MusicList>
       </>
     )
   }
