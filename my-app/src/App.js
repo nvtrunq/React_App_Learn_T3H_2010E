@@ -28,7 +28,11 @@ class App extends Component {
         {/* <button onClick={() => this.increment(1)}>increment1</button>
         <button onClick={() => this.increment(2)}>increment2</button> */}
 
-        <MusicList></MusicList>
+        <MusicList/>
+        <hr/>
+        <MusicList/>
+        <hr/>
+        <MusicList/>
       </>
     )
   }
