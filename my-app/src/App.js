@@ -1,16 +1,16 @@
-import React, {} from 'react'
-import './App.css'
+import React, { Component } from 'react'
+import './scss/index.scss'
 import 'bootstrap/dist/css/bootstrap.css'
-import Student from './components/Student'
+import Users from './components/Users'
 
-const App = () => {
-  return (
-    <>
-      <div className="container">
-        <Student />
-      </div>
-    </>
-  )
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Users/>
+      </>
+    )
+  }
 }
 
 export default App
